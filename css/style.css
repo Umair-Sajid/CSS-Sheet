@@ -1,0 +1,148 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+body{
+    margin: 0px;
+    background:#dbd8d8;
+    /* color: white; */
+    /* font-size: 1.4rem; */
+    line-height: 1.6em;
+    font: normal 16px arial,tohoma;
+
+}
+.container{
+    width: 60%;
+    margin: auto;
+    padding: 20px;
+}
+.box-1{
+    /* border: 2px solid red; */
+    background-color: #333;
+    color: #fff;
+    border-right: 1px solid red;
+    border-left: 2px solid rgb(36, 211, 23);
+    border-top: 3px solid rgb(17, 53, 231);
+    border-bottom: 5px solid rgb(17, 53, 231);
+    border-bottom-width: 15px;
+    border-top-style: dashed;
+    margin: 20px;
+    padding: 20px;
+
+
+}
+.box-1 h1{
+    font-family: Verdana, Geneva, Tahoma;
+    font-weight: 300;
+    font-style: italic;
+
+    text-transform: uppercase;
+    word-spacing: 1em;
+    letter-spacing: 1em;
+}
+.box-2{
+    border: 2px dotted grey;
+    padding: 20px;
+    margin: 20px;
+}
+.categories{
+    border: 2px dotted grey;
+    padding: 20px;
+    margin: 20px;
+
+}
+.categories li{
+    list-style: square;
+    color: black;
+}
+
+a:hover{
+    color: red;
+
+}
+.categories h2{
+    text-align: center;
+    text-transform: uppercase;
+}
+.my-form{
+    padding: 20px;
+
+}
+.my-form label{
+    display: block;
+    width: 100% ;
+}
+/* .my-form input [type="text"], .my-form textarea{
+    width: 100%;
+
+} */
+.button{
+    /* background-color:#333; */
+    display: block;
+    color: #fff;
+    border: none;
+    padding: 15px 10px;
+}
+
+.block{
+    float: left;
+    width: 33.3%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+.clr{
+    clear: both;
+}
+#main-block{
+    float: left;
+    width: 70%;
+    padding: 12px;
+    box-sizing: border-box;
+
+}
+#sidebar{
+    float: right;
+    width: 30%;
+    padding: 12px 5px;
+    background-color: #c76a6a;
+    border: 1px solid red;
+    text-align: center;
+    box-sizing: border-box;
+    
+}
+.p-box{
+    border: 1px solid black;
+    height: 60%;
+    height: 500px;
+    width: 900px;
+    margin-top: 10px;
+    position: relative;
+    background-image: url('../images/bg.jpg');
+}
+.p-box h1{
+    position: absolute;
+    top: 20px;
+    left: 10px;
+
+
+}
+.p-box h2{
+    position: absolute;
+    bottom: 30px;
+    right: 20px;
+}
+.my-list{
+    margin-top: 10px;
+}
+.my-list li:first-child{
+    background-color: blueviolet;
+}
+.my-list li:last-child{
+background: #4f3ac7;
+}
+.my-list li:nth-child(even){
+    background: #000000;
+    color: #e0550a;
+}
